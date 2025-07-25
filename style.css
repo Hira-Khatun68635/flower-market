@@ -1,0 +1,142 @@
+body{
+    width: 1140px;
+    background-color: #fcf8f8;
+    margin: 0 auto;
+}
+/*====================
+HEADER SECTION START
+======================*/
+.item ul{
+    padding-top: 30px;
+}
+.header-section{
+    padding-top: 20px;
+}
+.item ul li a{
+    padding:20px;
+    color: rgb(163, 139, 139);
+   
+}
+.item ul li a:hover{
+    color: black;
+}
+.banner-section{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    padding-top: 90px;
+    justify-items: center;
+}
+.banner-section .banner-right h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: black;
+}
+.banner-section .banner-right h2 span{
+    color: #E95A08;
+}
+.banner-section .banner-right p{
+    color:  rgb(163, 139, 139);
+}
+.banner-section .banner-left img{
+   padding-right: 190px;
+}
+/*====================
+HEADER SECTION  END
+======================*/
+
+/*====================
+HEADER SECTION  START
+======================*/
+.plant{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2px;
+    
+}
+.our-plants-section{
+    text-align: center;
+}
+.our-plants-section h2{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 50px;
+     color: black;
+}
+.our-plants-section h2 span{
+    color: #E95A08;
+}
+
+.card img{
+   
+    margin-top: 5rem;
+}
+.card figcaption{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 19px;
+       margin-left: 4rem;
+       color: rgb(100, 83, 83);
+}
+.card span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5rem;
+   
+}
+ .card button{
+    margin-top: 8px;
+ }
+.card button a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    background-color: #E95A08;
+    padding: 10px 97px;
+   
+}
+/*====================
+HEADER SECTION  END
+======================*/
+
+/*==========================
+FLOWER LOVER SECTION  START
+============================*/
+.flower-lover{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     margin-left: 80px;
+    width: 50rem;
+    position: absolute;
+   
+}
+.flower-lover h2{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 28px;
+     color: black;
+     font-weight: 800;
+    
+}
+.flower-lover .lover-right{
+    margin-left: 10px;
+     padding-left: 2rem;
+}
+.flower-lover .lover-right ul li{
+     list-style-type: disc;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 18px;
+     color: rgb(163, 139, 139);
+     
+}
+.lover-section .img2{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    left: 35%;
+   
+    
+    
+}
+/*========================
+FLOWER LOVER SECTION  END
+==========================*/
