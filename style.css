@@ -142,7 +142,7 @@ FLOWER LOVER SECTION  END
 
 
 /*==========================
-LATEST DEALS SECTION   START
+LOVER PLANT SECTION   START
 ============================*/
 #lover-deals-section  .lover-top{
       text-align: center;
@@ -172,6 +172,7 @@ LATEST DEALS SECTION   START
 }
 #lover-deals-section .lover-bottom .second-row img{
     border-radius: 20px;
+    margin-top: 57px;
 }
 #lover-deals-section .lover-bottom .second-row .img-content{
     position: relative;
@@ -180,5 +181,51 @@ LATEST DEALS SECTION   START
     
 }
 /*======================== 
-LATEST DEALS SECTION  END
+LOVER PLANT SECTION  END
+==========================*/
+
+/*==========================
+SUBSCRIBE SECTION   START
+============================*/
+
+
+/*======================== 
+SUBSCRIBE SECTION  END
+==========================*/
+
+
+
+/*======================== 
+FOOTER SECTION  START
+==========================*/ 
+
+.footer-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 120px;
+}
+.footer-area .footer-item .left-footer p{
+    color:  rgb(163, 139, 139);
+    margin-top: 10px;
+}
+.footer-area .footer-item .middle-left-footer{
+        color:  rgb(163, 139, 139);
+        
+}
+.footer-area .footer-item .middle-left-footer ul li {
+    padding: 20px;
+}
+.footer-area .footer-item .middle-right-footer ul li {
+    padding: 20px;
+} 
+.footer-area .footer-item .middle-right-footer{
+        color:  rgb(163, 139, 139);
+        
+}
+.footer-area .footer-item .right-footer ul li a img{
+     float: left;
+      padding: 15px;
+}
+/*======================== 
+FOOTER SECTION  END
 ==========================*/
