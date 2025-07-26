@@ -229,3 +229,28 @@ FOOTER SECTION  START
 /*======================== 
 FOOTER SECTION  END
 ==========================*/
+
+/*==========================
+RESPONSIVE SECTION   START
+============================*/
+@media screen and (max-width: 768px){
+    .header-section .item ul li{
+        display: none;
+    }
+    .header-section .header-top img{
+        margin-left: -350px;
+    }
+    .plant{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        
+    }
+    .lover-section .img2{
+        display: none;
+        grid-template-columns: 0%;
+    }
+}
+
+/*======================== 
+RESPONSIVE SECTION  END
+==========================*/
